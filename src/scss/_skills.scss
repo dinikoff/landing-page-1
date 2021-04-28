@@ -1,0 +1,55 @@
+.skills {
+  text-align: center;
+  padding-top: 87px;
+  padding-bottom: 115px;
+
+  &__title {
+    padding-bottom: 60px;
+  }
+
+  &__text {
+    padding-bottom: 87px;
+  }
+
+  &__items {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__fig {
+    width: 90px;
+    padding-bottom: 37px;
+  }
+
+  &__img {
+    padding-bottom: 22px;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: bold;
+    color: $sub-text-color;
+  }
+
+  &__raiting {
+    margin-top: auto;
+    display: flex;
+    column-gap: 12px;
+  }
+
+  &__star {
+    &_empty {
+      opacity: 0.1;
+    }
+  }
+}

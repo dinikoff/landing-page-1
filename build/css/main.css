@@ -645,3 +645,37 @@ h2 {
     padding-bottom: 26px; }
   .about-me__text {
     padding-bottom: 45px; }
+
+.skills {
+  text-align: center;
+  padding-top: 87px;
+  padding-bottom: 115px; }
+  .skills__title {
+    padding-bottom: 60px; }
+  .skills__text {
+    padding-bottom: 87px; }
+  .skills__items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px; }
+  .skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .skills__fig {
+    width: 90px;
+    padding-bottom: 37px; }
+  .skills__img {
+    padding-bottom: 22px; }
+  .skills__name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #828282; }
+  .skills__raiting {
+    margin-top: auto;
+    display: flex;
+    column-gap: 12px; }
+  .skills__star_empty {
+    opacity: 0.1; }
