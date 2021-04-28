@@ -1,0 +1,24 @@
+.header {
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 88px;
+    border-bottom: 1px solid $sub-text-color;
+  }
+
+  &__link {
+    color: $sub-text-color;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-decoration: none;
+
+    transition: color 0.5s;
+
+    &:hover {
+      color: $main-text-color;
+    }
+  }
+}

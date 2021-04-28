@@ -1,24 +1,23 @@
 @font-face {
-	font-family: 'Gilroy-Bold';
-	src: url('../fonts/Gilroy-Bold.eot');
-	src: local('☺'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.svg') format('svg');
-	font-weight: 700;
-	font-style: normal;
+  font-weight: 700;
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  src: url('../fonts/Gilroy-Bold.eot');
+  src: local('☺'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.svg') format('svg');
 }
 
 @font-face {
-	font-family: 'Gilroy-Medium';
-	src: url('../fonts/Gilroy-Medium.eot');
-	src: local('☺'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype'), url('../fonts/Gilroy-Medium.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
+  font-weight: 500;
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  src: url('../fonts/Gilroy-Medium.eot');
+  src: local('☺'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype'), url('../fonts/Gilroy-Medium.svg') format('svg');
 }
 
-
 body {
-  size: $text-size;
-  font-family: 'Gilroy-Medium', sans-serif;
   color: $main-text-color;
+  font-family: 'Gilroy-Medium', sans-serif;
+  size: $text-size;
 }
 
 h1 {
@@ -32,6 +31,6 @@ h2 {
 
 .container {
   max-width: 963px;
-  padding: 0 10px;
   margin: 0 auto;
+  padding: 0 10px;
 }
