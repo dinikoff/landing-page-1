@@ -320,7 +320,8 @@ template {
 
 body {
   size: 18px;
-  font-family: 'Gilroy-Medium', sans-serif; }
+  font-family: 'Gilroy-Medium', sans-serif;
+  color: #070707; }
 
 h1 {
   font-size: 47.34px;
