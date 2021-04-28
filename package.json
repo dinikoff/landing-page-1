@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/dinikoff/landing-page-1#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "scss-reset": "^1.1.11"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
