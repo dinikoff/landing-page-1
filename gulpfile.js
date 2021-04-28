@@ -53,7 +53,7 @@ browserSync.init({
 
 	gulp.watch('./src/scss/**/*.scss', styles);
 	gulp.watch('./src/**/*.html', html);
-	gulp.watch('/src/img/**/*', images);
+	gulp.watch('./src/img/**/*', images);
 }
 
 let build = gulp.parallel(html, styles, images);
