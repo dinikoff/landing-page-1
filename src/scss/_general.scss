@@ -1,3 +1,38 @@
+@import 'vars';
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/Gilroy-Bold.eot');
+	src: local('☺'), url('../fonts/Gilroy-Bold.woff') format('woff'), url('../fonts/Gilroy-Bold.ttf') format('truetype'), url('../fonts/Gilroy-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/Gilroy-Medium.eot');
+	src: local('☺'), url('../fonts/Gilroy-Medium.woff') format('woff'), url('../fonts/Gilroy-Medium.ttf') format('truetype'), url('../fonts/Gilroy-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+body {
+  size: $text-size;
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+
 h1 {
-  color: blue;
+  font-size: $h1-size;
+  font-family: 'Gilroy-Bold', serif;
+}
+
+h2 {
+  font-size: $h2-size;
+}
+
+.container {
+  max-width: 963px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
