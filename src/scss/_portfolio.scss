@@ -1,0 +1,23 @@
+.portfolio {
+  text-align: center;
+  background-color: $bg-color;
+  padding-top: 107px;
+  padding-bottom: 1px;
+
+  &__title {
+    margin-bottom: 56px;
+  }
+
+  &__item {
+    margin-bottom: 100px;
+  }
+
+  &__img {
+    margin-bottom: 45px;
+    font-weight: bold;
+  }
+
+  &__link {
+    color: inherit;
+  }
+}

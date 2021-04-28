@@ -568,7 +568,6 @@ h1 {
 
 h2 {
   font-size: 34px;
-  font-family: "Gilroy-Medium", serif;
   font-weight: bold; }
 
 .container {
@@ -679,3 +678,18 @@ h2 {
     column-gap: 12px; }
   .skills__star_empty {
     opacity: 0.1; }
+
+.portfolio {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-top: 107px;
+  padding-bottom: 1px; }
+  .portfolio__title {
+    margin-bottom: 56px; }
+  .portfolio__item {
+    margin-bottom: 100px; }
+  .portfolio__img {
+    margin-bottom: 45px;
+    font-weight: bold; }
+  .portfolio__link {
+    color: inherit; }
