@@ -21,6 +21,7 @@
 
   &__text {
     flex-grow: 1;
+    min-width: 240px;
     padding-right: 30px;
     padding-bottom: 15px;
   }
@@ -43,5 +44,11 @@
     &_not-active {
       color: $sub-text-color;
     }
+
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
   }
 }

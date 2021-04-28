@@ -616,6 +616,7 @@ h2 {
     line-height: 1.3; }
   .home__text {
     flex-grow: 1;
+    min-width: 240px;
     padding-right: 30px;
     padding-bottom: 15px; }
   .home__switch {
@@ -630,3 +631,6 @@ h2 {
     text-decoration: none; }
     .home__switch-lang_not-active {
       color: #828282; }
+  .home__img {
+    display: flex;
+    justify-content: center; }
