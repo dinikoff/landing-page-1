@@ -16,8 +16,8 @@
 
 body {
   color: $main-text-color;
+  font-size: $text-size;
   font-family: 'Gilroy-Medium', sans-serif;
-  size: $text-size;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
 }
 
 .container {
-  max-width: 963px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 30px;
 }
