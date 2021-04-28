@@ -564,10 +564,12 @@ body {
 
 h1 {
   font-size: 45px;
-  font-family: "Gilroy-Bold", serif; }
+  font-family: "Gilroy-Medium", serif; }
 
 h2 {
-  font-size: 34px; }
+  font-size: 34px;
+  font-family: "Gilroy-Medium", serif;
+  font-weight: bold; }
 
 .container {
   position: relative;
@@ -634,3 +636,12 @@ h2 {
   .home__img {
     display: flex;
     justify-content: center; }
+
+.about-me {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 117px 0 65px; }
+  .about-me__title {
+    padding-bottom: 26px; }
+  .about-me__text {
+    padding-bottom: 45px; }

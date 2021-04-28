@@ -30,11 +30,13 @@ body {
 
 h1 {
   font-size: $h1-size;
-  font-family: "Gilroy-Bold", serif;
+  font-family: "Gilroy-Medium", serif;
 }
 
 h2 {
   font-size: $h2-size;
+  font-family: "Gilroy-Medium", serif;
+  font-weight: bold;
 }
 
 .container {

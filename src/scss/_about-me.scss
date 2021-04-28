@@ -1,0 +1,14 @@
+.about-me {
+  background-color: $bg-color;
+  text-align: center;
+  padding: 117px 0 65px;
+  &__title {
+    padding-bottom: 26px;
+  }
+
+  &__text {
+    padding-bottom: 45px;
+  }
+}
+
+
