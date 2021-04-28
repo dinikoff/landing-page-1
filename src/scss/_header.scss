@@ -11,13 +11,22 @@
     color: $sub-text-color;
     font-weight: bold;
     font-size: 18px;
-    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: "Gilroy-Bold", sans-serif;
     text-decoration: none;
 
     transition: color 0.5s;
 
     &:hover {
       color: $main-text-color;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    &__menu {
+      padding: 20px 0;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
     }
   }
 }
