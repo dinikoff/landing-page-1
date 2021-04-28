@@ -39,7 +39,7 @@ function styles(){
 function images(){
 	return gulp.src('./src/img/**/*')
 				// size down, webp
-				.pipe(gulp.dest('./build/img'));
+				.pipe(gulp.dest('./build/img/'));
 }
 
 function watch(){
