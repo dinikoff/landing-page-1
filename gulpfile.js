@@ -39,7 +39,8 @@ function styles(){
 function images(){
 	return gulp.src('./src/img/**/*')
 				// size down, webp
-				.pipe(gulp.dest('./build/img/'));
+				.pipe(gulp.dest('./build/img/'))
+				.pipe(browserSync.stream());
 }
 
 function watch(){
@@ -52,7 +53,7 @@ browserSync.init({
 
 	gulp.watch('./src/scss/**/*.scss', styles);
 	gulp.watch('./src/**/*.html', html);
-	gulp.watch('/src/img/**/*');
+	gulp.watch('/src/img/**/*', images);
 }
 
 let build = gulp.parallel(html, styles, images);
