@@ -1,0 +1,48 @@
+.footer {
+  padding-top: 107px;
+  padding-bottom: 125px;
+
+  text-align: center;
+
+  &__title {
+    margin-bottom: 27px;
+  }
+
+  &__text {
+    margin-bottom: 32px;
+  }
+
+  &__button {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+    margin-bottom: 84px;
+    padding: 12px 0;
+    border-radius: 21px;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: black;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+
+  &__social {
+    color: $sub-text-color;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 500px) {
+    &__button {
+      width: 100%;
+    }
+  }
+}
